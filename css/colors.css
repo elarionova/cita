@@ -1,0 +1,67 @@
+.red_top
+{
+	background: linear-gradient(to top, #ffdddd, #f46161);
+}
+
+.red_bottom
+{
+	background: linear-gradient(to bottom, #ffdddd, #f46161);
+}
+.blue_top
+{
+	background: linear-gradient(to top, #d6e4f9, #5495ff);
+	
+}
+
+.blue_bottom
+{
+	background: linear-gradient(to bottom, #d6e4f9, #5495ff);
+}
+.green_top
+{
+	background: linear-gradient(to top, #b3f9c7, #54ff84);
+}
+
+
+.green_bottom
+{
+	background: linear-gradient(to bottom, #b3f9c7, #54ff84);
+}
+
+.yellow-top
+{
+	background: linear-gradient(to top, #fefcea, #f1da36);
+}
+
+.yellow_bottom
+{
+	background: linear-gradient(to bottom, #fefcea, #f1da36);
+}
+
+.violet_top
+{
+	background: linear-gradient(to top, #fcbfe9, #f453c1);
+}
+
+
+.violet_bottom
+{
+	background: linear-gradient(to bottom, #fcbfe9, #f453c1);
+}
+
+
+.orange_top
+{
+	background: linear-gradient(to top, #ffebc9, #ffad21);
+}
+
+.orange_bottom
+{
+	background: linear-gradient(to bottom, #ffebc9, #ffad21);
+}
+
+
+.blanc
+{
+	background-color: #dfdfdf;
+}

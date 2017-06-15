@@ -1,0 +1,128 @@
+.checker
+{
+	width: 20px;
+	height: 20px;
+	margin-top: -5px;
+	cursor: pointer;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+  	-ms-user-select: none;      /* IE 10+ */
+  	user-select: none;          /* Likely future */   
+}
+
+input [type="radio"] + label
+{
+	display: inline-block;
+	position: relative;
+
+}
+
+label
+{
+	cursor: pointer;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */   
+}
+
+.checker:not(checked)
+{
+	opacity: 0;
+
+}
+
+.checker:checked + label:before
+
+{
+	content: "";
+	display: inline-block;
+	border-radius: 10px;
+	width: 20px;
+	height: 20px;
+	/*background: linear-gradient(to top, #fefcea, #f1da36);*/
+	margin-left: -20px;
+	/*box-shadow: inset 0 0 5px 2px rgba(1,1,1,0.7);*/
+	box-shadow: inset 0 0 1px 1px rgba(5,5,5, 0.75);
+	position: relative;
+}
+
+
+
+.checker:not(checked) + label:before
+{
+	content: "";
+	display: inline-block;
+	border-radius: 10px;
+	width: 20px;
+	height: 20px;
+	/*background: linear-gradient(to bottom, #fefcea, #f1da36);*/
+	margin-left: -20px;	
+	position: relative;
+	box-shadow: 0 1px 1px 1px rgba(5, 5, 5, 0.73);
+}
+
+.rad:checked + label:before, .rad:not(checked) + label:before
+{
+	content:"";
+	width: 20px;
+	height:20px;
+	border-radius: 10px;
+
+}
+
+.checker:not(checked) + label.red:before
+{
+	background: linear-gradient(to bottom, #ffdddd, #f46161);
+}
+.checker:checked + label.red:before
+{
+	background: linear-gradient(to top, #ffdddd, #f46161);
+}
+.checker:not(checked) + label.blue:before
+{
+	background: linear-gradient(to bottom, #d6e4f9, #5495ff);
+}
+.checker:checked + label.blue:before
+{
+	background: linear-gradient(to top, #d6e4f9, #5495ff);	
+}
+
+.checker:not(checked) + label.green:before
+{
+	background: linear-gradient(to bottom, #ddffd8, #54ff84);
+}
+.checker:checked + label.green:before
+{
+	background: linear-gradient(to top, #b3f9c7, #54ff84);	
+}
+.checker:not(checked) + label.yellow:before
+{
+	background: linear-gradient(to bottom, #fefcea, #f1da36);
+}
+.checker:checked + label.yellow:before
+{
+	
+	background: linear-gradient(to top, #fefcea, #f1da36);
+}
+.checker:not(checked) + label.violet:before
+{
+	background: linear-gradient(to bottom, #fcbfe9, #f453c1);
+}
+.checker:checked + label.violet:before
+{
+	background: linear-gradient(to top, #fcbfe9, #f453c1);
+}
+.checker:not(checked) + label.orange:before
+{
+	background: linear-gradient(to bottom, #ffebc9, #ff960f);
+}
+.checker:checked + label.orange:before
+{
+	background: linear-gradient(to top, #ffebc9, #ff960f);
+}
+.checker:not(checked) + label.blanc:before, .checker:checked + label.blanc:before
+{
+	background-color: #eee;
+}
+
