@@ -51,7 +51,7 @@ html
 
 .field
 {
-	box-shadow: 0 0 8px 1px rgba(0,0,0,0.2);
+	/*box-shadow: 0 0 8px 1px rgba(0,0,0,0.2);*/
 	margin: 0;
 	padding-top: 10px;
 	/*background-color: #fff;*/
@@ -104,6 +104,7 @@ html
 {
 	font-style: italic;
 	color:#c1c1c1;
+
 	
 
 }
@@ -133,11 +134,13 @@ html
 	overflow:hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+	margin-top: 15px;
 }
 
 .c_content, .c_date
 {
 	margin-left: 10px;
+	margin-bottom: 15px;
 
 }
 
