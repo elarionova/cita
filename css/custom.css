@@ -3,17 +3,35 @@
     font-family: 'Chalk';
     src: url(fonts/chalk.ttf); /* Путь к файлу со шрифтом */
    }
-body 
+body , input, button
 {
-	font-family: roboto,Arial,sans-serif;
-	 background-color: transparent;
+	/*font-family: roboto, Arial,sans-serif;(/)
+	 background-color: transparent;*/
+	 font-family: 'Roboto', sans-serif;
+	    font-size: 16px;
+    font-weight: 400;
 
 
 }
 html
 {
-	background: linear-gradient(to bottom, #fefcea, #f1da36);
+	/*background: linear-gradient(to bottom, #fefcea, #f1da36);*/
 	min-height: 100%;
+	
+}
+
+.img_pad
+{
+	background-image: url("img/2290.jpg");
+	background-repeat: no-repeat;
+	background-position:  bottom right;
+	background-size: 100%;
+	position: fixed;
+	z-index: -1;
+	top:0;
+	right: 0;
+	left: 0;
+	bottom: 0;
 }
 
 
@@ -33,14 +51,20 @@ html
 
 .field
 {
-	box-shadow: 0 0 8px 1px rgba(0,0,0,0.2);
+	/*box-shadow: 0 0 8px 1px rgba(0,0,0,0.2);*/
 	margin: 0;
 	padding-top: 10px;
-	background-color: #fff;
+	/*background-color: #fff;*/
 	
 
 }
-.white_pad {background-color:#fff;  padding-top:10px; margin-top: -1px;}
+.white_pad 
+{
+	background-color:#fff;
+	box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);  
+	padding-top:10px; 
+	margin-top: -1px;
+}
 .cita_list
 {
 	margin-top: 150px;
@@ -57,11 +81,12 @@ html
 	overflow: hidden;
 	margin-left: 0px;
 	cursor: pointer;
+
 }
 
 .c_panel:hover
 {
-	background-color: #fffef7;
+	background-color: #fdfff9;
 /*	max-height: 1000px;*/
 }
 
@@ -79,6 +104,7 @@ html
 {
 	font-style: italic;
 	color:#c1c1c1;
+
 	
 
 }
@@ -108,11 +134,14 @@ html
 	overflow:hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+	margin-top: 15px;
 }
 
 .c_content, .c_date
 {
 	margin-left: 10px;
+	margin-bottom: 15px;
+
 }
 
 .shadow_border
