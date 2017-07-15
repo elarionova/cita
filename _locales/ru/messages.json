@@ -1,0 +1,98 @@
+{
+  "EXTENSION_DESCRIPTION": {
+    "message": "Сохраняйте и редактируйте цитаты со всего Интернета в одном месте с помощью Cita",
+    "description": "Description of extension contained in manifest"
+  },
+  "FIND_BUTTON_TITLE": {
+    "message": "Найти",
+    "description": "Title displayed on hover on find button"
+  },
+  "FIND_INPUT_PLACEHOLDER": {
+    "message": "Что мне найти?",
+    "description": "A placeholder for search input"
+  },
+  "PRIORITY_OPTION_TITLE": {
+    "message": "Показать в обратном порядке",
+    "description": "Title displayed on hover over reorder button"
+  },
+  "MINIMIZE_BUTTON_TITLE": {
+    "message": "Свернуть",
+    "description": "Title displayed on hover over minimize button"
+  },
+  "DUPLICATE_ACTION_TITLE": {
+    "message": "Дублировать",
+    "description": "Title displayed on hover over dublicate button"
+  },
+  "SELECT_LINK_ACTION_TITLE": {
+    "message": "Выделить ссылку",
+    "description": "Title displayed on hover over select link button"
+  },
+  "REMOVE_CITE_ACTION_TITLE": {
+    "message": "Удалить",
+    "description": "Title displayed on hover over remove cite button"
+  },
+  "SELECT_CITE_TEXT_ACTION_TITLE": {
+    "message": "Выделить цитату",
+    "description": "Title displayed on hover over select cite text button"
+  },
+  "DUPLICATED_HINT_MESSAGE": {
+    "message": "Продублировано",
+    "description": "Message displayed in hint on succcessfull cite duplication"
+  },
+  "DUPLICATED_HINT_ANCHOR_TEXT": {
+    "message": "сдесь",
+    "description": "Text of anchor inside duplicated success hint"
+  },
+  "SHOW_MORE_BUTTON_MESSAGE": {
+    "message": "Показать еще цитаты",
+    "description": "Message displayed in the button to show more cites"
+  },
+  "MINUTES_SINGLE": {
+    "message": "минуту назад",
+    "description": "One minute ago"
+  },
+  "MINUTES_SEMI_PLURAL": {
+    "message": "минуты назад",
+    "description": "Two-Four minutes ago"
+  },
+  "MINUTES_PLURAL": {
+    "message": "минут назад",
+    "description": "Hunred minutes ago"
+  },
+  "HOURS_SINGLE": {
+    "message": "час назад",
+    "description": "One hour ago"
+  },
+  "HOURS_SEMI_PLURAL": {
+    "message": "часа назад",
+    "description": "Two-Four hours ago"
+  },
+  "HOURS_PLURAL": {
+    "message": "часов назад",
+    "description": "Hunred hours ago"
+  },
+  "DAYS_SINGLE": {
+    "message": "день назад",
+    "description": "One day ago"
+  },
+  "DAYS_SEMI_PLURAL": {
+    "message": "дня назад",
+    "description": "Two-Four days ago"
+  },
+  "DAYS_PLURAL": {
+    "message": "дней назад",
+    "description": "Hunred days ago"
+  },
+  "YEARS_SINGLE": {
+    "message": "год назад",
+    "description": "One year ago"
+  },
+  "YEARS_SEMI_PLURAL": {
+    "message": "года назад",
+    "description": "Two-Four years ago"
+  },
+  "YEARS_PLURAL": {
+    "message": "лет назад",
+    "description": "Hunred years ago"
+  }
+}

@@ -10,7 +10,7 @@
 .blue_top
 {
 	background: linear-gradient(to top, #d6e4f9, #5495ff);
-	
+
 }
 
 .blue_bottom
@@ -61,7 +61,7 @@
 }
 
 
-.blanc
+.blanc_top, .blanc_bottom, .blanc
 {
 	background-color: #dfdfdf;
 }
