@@ -1,0 +1,98 @@
+{
+  "EXTENSION_DESCRIPTION": {
+    "message": "Collect and edit quotes from any sites",
+    "description": "Description of extension contained in manifest"
+  },
+  "FIND_BUTTON_TITLE": {
+    "message": "Search",
+    "description": "Title displayed on hover on find button"
+  },
+  "FIND_INPUT_PLACEHOLDER": {
+    "message": "What are you looking for?",
+    "description": "A placeholder for search input"
+  },
+  "PRIORITY_OPTION_TITLE": {
+    "message": "Reverse order",
+    "description": "Title displayed on hover over reorder button"
+  },
+  "MINIMIZE_BUTTON_TITLE": {
+    "message": "Minimize",
+    "description": "Title displayed on hover over minimize button"
+  },
+  "DUPLICATE_ACTION_TITLE": {
+    "message": "Duplicate",
+    "description": "Title displayed on hover over dublicate button"
+  },
+  "SELECT_LINK_ACTION_TITLE": {
+    "message": "Select link",
+    "description": "Title displayed on hover over select link button"
+  },
+  "REMOVE_CITE_ACTION_TITLE": {
+    "message": "Remove",
+    "description": "Title displayed on hover over remove cite button"
+  },
+  "SELECT_CITE_TEXT_ACTION_TITLE": {
+    "message": "Select text",
+    "description": "Title displayed on hover over select cite text button"
+  },
+  "DUPLICATED_HINT_MESSAGE": {
+    "message": "Duplicated",
+    "description": "Message displayed in hint on succcessfull cite duplication"
+  },
+  "DUPLICATED_HINT_ANCHOR_TEXT": {
+    "message": "here",
+    "description": "Text of anchor inside duplicated success hint"
+  },
+  "SHOW_MORE_BUTTON_MESSAGE": {
+    "message": "Show more",
+    "description": "Message displayed in the button to show more cites"
+  },
+  "MINUTES_SINGLE": {
+    "message": "minute ago",
+    "description": "One minute ago"
+  },
+  "MINUTES_SEMI_PLURAL": {
+    "message": "minutes ago",
+    "description": "Two-Four minutes ago(used in Russian)"
+  },
+  "MINUTES_PLURAL": {
+    "message": "minutes ago",
+    "description": "Hunred minutes ago"
+  },
+  "HOURS_SINGLE": {
+    "message": "hour ago",
+    "description": "One hour ago"
+  },
+  "HOURS_SEMI_PLURAL": {
+    "message": "hours ago",
+    "description": "Two-Four hours ago(used in Russian)"
+  },
+  "HOURS_PLURAL": {
+    "message": "hours ago",
+    "description": "Hunred hours ago"
+  },
+  "DAYS_SINGLE": {
+    "message": "day ago",
+    "description": "One day ago"
+  },
+  "DAYS_SEMI_PLURAL": {
+    "message": "days ago",
+    "description": "Two-Four days ago(used in Russina)"
+  },
+  "DAYS_PLURAL": {
+    "message": "days ago",
+    "description": "Hunred days ago"
+  },
+  "YEARS_SINGLE": {
+    "message": "year ago",
+    "description": "One year ago"
+  },
+  "YEARS_SEMI_PLURAL": {
+    "message": "years ago",
+    "description": "Two-Four years ago(used in Russian)"
+  },
+  "YEARS_PLURAL": {
+    "message": "years ago",
+    "description": "Hunred years ago"
+  }
+}
