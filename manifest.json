@@ -23,6 +23,7 @@
   "incognito": "spanning",
   "minimum_chrome_version": "40",
 
+  "offline_enabled": true,
   "permissions": ["contextMenus", "storage", "tabs"],
   "short_name": "Cita"
 }

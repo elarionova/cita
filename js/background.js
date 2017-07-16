@@ -63,12 +63,5 @@ function registerBrowserActionClickCallback() {
   chrome.browserAction.onClicked.addListener(createOrActivateMainPage);
 }
 
-chrome.runtime.onStartup.addListener(() => {
-  registerSelectionContextMenu();
-  registerBrowserActionClickCallback();
-});
-
-chrome.runtime.onInstalled.addListener(() => {
-  registerSelectionContextMenu();
-  registerBrowserActionClickCallback();
-});
+registerSelectionContextMenu();
+registerBrowserActionClickCallback();
