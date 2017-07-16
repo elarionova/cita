@@ -102,6 +102,7 @@ html
 .c_panel_opened
 {
 	box-shadow: 0 0 5px 1px rgba(50,50,50,0.3);
+  overflow: visible;
 }
 
 .c_panel_opened:hover
@@ -255,7 +256,7 @@ button>span
   bottom: 23px;
   left: -7px;
   z-index: 102;
-  min-width: 180px;
+  min-width: 250px;
   text-align: left;
 }
 

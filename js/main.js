@@ -11,7 +11,7 @@ const SEARCH_INPUT_ID = "search_input";
 const SHOW_MORE_BUTTON_ID = 'show_more_button';
 
 // TODO(matthewtff): Move this as a setting to options page.
-const CITES_PER_PAGE = 4;
+const CITES_PER_PAGE = 50;
 
 function compareCites(left, right) {
   const left_timestamp = new Date(left['timestamp']);
@@ -268,8 +268,7 @@ function renderExpanededCite(row, cite) {
   const c_date = createDiv(panel_body, ['c_date']);
   c_date.innerText = formatDate(cite['timestamp']);
 
-  const c_content = createDiv(
-      panel_body, ['c_content', 'line-clamp', 'line-clamp-unlim']);
+  const c_content = createDiv(panel_body, ['c_content']);
 
   const content_editable = createDiv(c_content, []);
   content_editable.setAttribute('contenteditable', true);
@@ -283,6 +282,7 @@ function renderExpanededCite(row, cite) {
   const c_link = createDiv(c_content, ['c_link']);
   const anchor = document.createElement('a');
   anchor.href = cite['url'];
+  anchor.setAttribute('target', '_blank');
   anchor.innerText = cite['title'];
   c_link.appendChild(anchor);
   on_selection_change_callbacks.push(() => {
@@ -448,6 +448,7 @@ function renderCite(row, cite) {
                               ['c_link', 'line-clamp', 'line-clamp-1']);
   const anchor = document.createElement('a');
   anchor.href = cite['url'];
+  anchor.setAttribute('target', '_blank');
   anchor.innerText = cite['title'];
   cite_link.appendChild(anchor);
 }
