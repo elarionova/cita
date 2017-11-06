@@ -13,6 +13,20 @@ const SHOW_MORE_BUTTON_ID = 'show_more_button';
 // TODO(matthewtff): Move this as a setting to options page.
 const CITES_PER_PAGE = 50;
 
+function redrawOnNewItems(changes, area) {
+  if (area == 'local') {
+    console.log(changes);
+    for (const key in changes) {
+      change = changes[key];
+      const is_new_cite = change.hasOwnProperty('newValue') &&
+          !change.hasOwnProperty('oldValue');
+      if (is_new_cite) {
+        addCite(change['newValue'], true);
+      }
+    }
+  }
+}
+
 function compareCites(left, right) {
   const left_timestamp = new Date(left['timestamp']);
   const right_timestamp = new Date(right['timestamp']);
@@ -52,7 +66,7 @@ function searchCites(query, callback) {
 function removeCite(cite) {
   chrome.storage.local.remove(cite['timestamp'], () => {
     if (chrome.runtime.lastError) {
-      console.log(chrome.runtime.lastError);
+      console.error(chrome.runtime.lastError);
     }
   });
 }
@@ -307,7 +321,6 @@ function renderExpanededCite(row, cite) {
   duplicate_anchor.addEventListener('click', () => {
     cite['timestamp'] = (new Date()).toString();
     setCite(cite);
-    addCite(cite, true);
     const hint = showHint(
         c_content, 'green', chrome.i18n.getMessage('DUPLICATED_HINT_MESSAGE'));
     const anchor = document.createElement('a');
@@ -540,6 +553,7 @@ function addSearchHandlers() {
 
 addSearchHandlers();
 renderCites();
+chrome.storage.onChanged.addListener(redrawOnNewItems);
 
 document.addEventListener('selectionchange', () => {
   for (const callback of on_selection_change_callbacks) {
